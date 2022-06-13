@@ -1,0 +1,31 @@
+{
+  "name": "hw-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "save": "git add -A && git commit -m 'update of code' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invtr07/HW-react-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invtr07/HW-react-intro/issues"
+  },
+  "homepage": "https://github.com/invtr07/HW-react-intro#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
