@@ -1,10 +1,11 @@
 import './App.css';
 
 function App() {
-
+  //it is very important to set correct path to your file!!!!!!
+  const image1= './images/photo-1.jpeg';
   return (
     <div className ="App">
-        <img src='./public/images/image-1.jpeg' />
+        <img alt="photo1" src={image1} />
     </div>  
   );
 }
