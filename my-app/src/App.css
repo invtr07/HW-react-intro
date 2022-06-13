@@ -1,4 +1,9 @@
-.App {
-
-  
+body {
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+}
+.photo{
+  width: 50%;
+  height: 50%;
 }
