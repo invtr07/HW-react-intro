@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap';
 
 function App() {
   //it is very important to set correct path to your file!!!!!!
@@ -7,24 +8,31 @@ function App() {
 
   return (
     <div className ="App">
-      <header>
+      {/* <header>
         Photoes pro
-      </header>
+      </header> */}
+      {/* completed Bronze task */}
+      
       <div className='container'>
         <div className='img-txt'>
           <img className="photo" alt="photo1" src={image[0]} />
+          <p>Hey</p>
         </div>
         <div className='img-txt'>
           <img className="photo" alt="photo1" src={image[1]} />
+          <p>Let's</p>
         </div>
         <div className='img-txt'>
           <img className="photo" alt="photo1" src={image[2]} />
+          <p>Give</p>
         </div>
         <div className='img-txt'>
           <img className="photo" alt="photo1" src={image[3]} />
+          <p>All</p>
         </div>
         <div className='img-txt'>
           <img className="photo" alt="photo1" src={image[4]} />
+          <p>You can</p>
         </div>
         
       </div>    
