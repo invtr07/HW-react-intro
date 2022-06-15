@@ -11,7 +11,6 @@ function App() {
       {/* <header>
         Photoes pro
       </header> */}
-      {/* completed Bronze task */}
       
       <div className='container'>
         <div className='img-txt'>
