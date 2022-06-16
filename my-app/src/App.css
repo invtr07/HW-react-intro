@@ -26,52 +26,34 @@ html, body {
 }
 
 .img-txt{
-  max-width: 20%;
+  min-width: 20%;
+  background-position: center;
+  background-size: 290%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media 
 }
 .box1 {
   background-image: url(./images/photo-1.jpeg);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .box2{
   background-image: url('./images/photo-2.jpeg');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 .box3{
   background-image: url('./images/photo-3.jpeg');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .box4{
   background-image: url('./images/photo-4.jpeg');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .box5{
   background-image: url('./images/photo-5.jpeg');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.photo{
-  min-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
 p {
   font-size: 32pt;
-  color: black;
+  color: white;
 }
 
 
