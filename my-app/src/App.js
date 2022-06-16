@@ -4,7 +4,7 @@ import 'bootstrap';
 function App() {
   //it is very important to set correct path to your file!!!!!!
 
-  const image= ['./images/photo-1.jpeg','./images/photo-2.jpeg','./images/photo-3.jpeg','./images/photo-4.jpeg','./images/photo-5.jpeg'];
+  const image= [,,'./src/images/photo-3.jpeg','./src/images/photo-4.jpeg','./src/images/photo-5.jpeg'];
 
   return (
     <div className ="App">
@@ -13,24 +13,24 @@ function App() {
       </header> */}
       
       <div className='container'>
-        <div className='img-txt'>
-          <img className="photo" alt="photo1" src={image[0]} />
-          <p>Hey</p>
+        <div className='img-txt box1'>
+            <p>Hey</p>
         </div>
-        <div className='img-txt'>
-          <img className="photo" alt="photo1" src={image[1]} />
-          <p>Let's</p>
+        
+        <div className='img-txt box2'>          
+            <p>Let's</p>          
         </div>
-        <div className='img-txt'>
-          <img className="photo" alt="photo1" src={image[2]} />
+
+        <div className='img-txt box3'>
+          
           <p>Give</p>
         </div>
-        <div className='img-txt'>
-          <img className="photo" alt="photo1" src={image[3]} />
+        <div className='img-txt box4'>
+          
           <p>All</p>
         </div>
-        <div className='img-txt'>
-          <img className="photo" alt="photo1" src={image[4]} />
+        <div className='img-txt box5'>
+          
           <p>You can</p>
         </div>
         
